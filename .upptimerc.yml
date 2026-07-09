@@ -9,23 +9,23 @@ assignees:
 
 sites:
   - name: 基礎設施 G
-    url: $HIDDEN_SITE_7
+    url: $HIDDEN_SITE_07
   - name: 客戶系統 A
-    url: $HIDDEN_SITE_1
+    url: $HIDDEN_SITE_01
   - name: 客戶系統 B
-    url: $HIDDEN_SITE_2
+    url: $HIDDEN_SITE_02
   - name: 客戶系統 C
-    url: $HIDDEN_SITE_3
+    url: $HIDDEN_SITE_03
   - name: 產品系統 D
-    url: $HIDDEN_SITE_4
+    url: $HIDDEN_SITE_04
   - name: 內部工具 E
-    url: $HIDDEN_SITE_5
+    url: $HIDDEN_SITE_05
   - name: 內部工具 F
-    url: $HIDDEN_SITE_6
+    url: $HIDDEN_SITE_06
   - name: 主站
-    url: $HIDDEN_SITE_8
+    url: $HIDDEN_SITE_08
   - name: LINE Bot AI 客服 Demo
-    url: $HIDDEN_SITE_9
+    url: $HIDDEN_SITE_09
   - name: 競品情報分析
     url: $HIDDEN_SITE_10
   - name: SmartContent 文案
