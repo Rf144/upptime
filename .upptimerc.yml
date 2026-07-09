@@ -1,0 +1,70 @@
+# Vantage Automation — 24/7 監控（Upptime）
+# 設計原則（2026-07-05）：只做「便宜的 GET 頁面巡邏」，絕不 POST AI API（那會燒 OpenRouter 額度）。
+# 分工：Upptime = 24/7 網站心跳；/demo-health skill = 每月一次 AI 模型存活深檢。
+# 2026-07-09：公開清單只列「本來就是廣告」的展示目標；其餘目標一律 repo secret 引用＋代號顯示。
+owner: Rf144
+repo: upptime
+
+assignees:
+  - Rf144
+
+sites:
+  - name: 基礎設施 G
+    url: $HIDDEN_SITE_7
+  - name: 客戶系統 A
+    url: $HIDDEN_SITE_1
+  - name: 客戶系統 B
+    url: $HIDDEN_SITE_2
+  - name: 客戶系統 C
+    url: $HIDDEN_SITE_3
+  - name: 產品系統 D
+    url: $HIDDEN_SITE_4
+  - name: 內部工具 E
+    url: $HIDDEN_SITE_5
+  - name: 內部工具 F
+    url: $HIDDEN_SITE_6
+  - name: 主站 vantage-automation.com
+    url: https://vantage-automation.com
+  - name: LINE Bot AI 客服 Demo
+    url: https://antonio-site-blush.vercel.app/nail-demo.html
+  - name: 競品情報分析
+    url: https://vantage-automation.com/demo-competitor
+  - name: SmartContent 文案
+    url: https://vantage-automation.com/demo-smartcontent
+  - name: SmartERP
+    url: https://erp-demo-dun.vercel.app
+  - name: HRM Pro
+    url: https://hrm-demo-three.vercel.app
+  - name: SmartSCM
+    url: https://scm-demo.vercel.app
+  - name: SpacePro PMS
+    url: https://vantage-automation.com/demo-pms
+  - name: AI 報價單
+    url: https://vantage-demo-swart.vercel.app/quote-demo.html
+  - name: StyleShowcase
+    url: https://style-showcase-demo.vercel.app
+  - name: SmartVisual
+    url: https://vantage-automation.com/demo-smartvisual
+  - name: FinSight
+    url: https://vantage-automation.com/demo-finsight
+  - name: StockSight
+    url: https://vantage-automation.com/demo-stocksight
+  - name: UGC Video Tool
+    url: https://vantage-automation.com/demo-ugc
+  - name: 律師記帳士
+    url: https://lawcpa-demo.vercel.app
+  - name: 房仲 CRM
+    url: https://real-estate-crm-swart-psi.vercel.app
+  - name: 健身教練管理
+    url: https://gym-demo-gamma-ivory.vercel.app
+
+status-website:
+  baseUrl: /upptime
+  name: Vantage 狀態頁
+  introTitle: "**Vantage Automation** — 服務即時狀態"
+  introMessage: 每 5 分鐘自動檢測一次。由 [Upptime](https://github.com/upptime/upptime) 驅動（GitHub Actions，零伺服器）。
+  navbar:
+    - title: 狀態
+      href: /
+    - title: 主站
+      href: https://vantage-automation.com
