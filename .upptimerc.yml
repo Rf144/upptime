@@ -1,7 +1,6 @@
 # Vantage Automation — 24/7 監控（Upptime）
-# 設計原則（2026-07-05）：只做「便宜的 GET 頁面巡邏」，絕不 POST AI API（那會燒 OpenRouter 額度）。
-# 分工：Upptime = 24/7 網站心跳；/demo-health skill = 每月一次 AI 模型存活深檢。
-# 2026-07-09：公開清單只列「本來就是廣告」的展示目標；其餘目標一律 repo secret 引用＋代號顯示。
+# 設計原則（2026-07-05）：只做「便宜的 GET 頁面巡邏」，絕不 POST AI API。
+# 鐵則（2026-07-09 定版）：本 repo 永遠零真實網址——所有目標一律 repo secret 引用；展示歸主站、監控歸這裡。
 owner: Rf144
 repo: upptime
 
@@ -23,40 +22,40 @@ sites:
     url: $HIDDEN_SITE_5
   - name: 內部工具 F
     url: $HIDDEN_SITE_6
-  - name: 主站 vantage-automation.com
-    url: https://vantage-automation.com
+  - name: 主站
+    url: $HIDDEN_SITE_8
   - name: LINE Bot AI 客服 Demo
-    url: https://antonio-site-blush.vercel.app/nail-demo.html
+    url: $HIDDEN_SITE_9
   - name: 競品情報分析
-    url: https://vantage-automation.com/demo-competitor
+    url: $HIDDEN_SITE_10
   - name: SmartContent 文案
-    url: https://vantage-automation.com/demo-smartcontent
+    url: $HIDDEN_SITE_11
   - name: SmartERP
-    url: https://erp-demo-dun.vercel.app
+    url: $HIDDEN_SITE_12
   - name: HRM Pro
-    url: https://hrm-demo-three.vercel.app
+    url: $HIDDEN_SITE_13
   - name: SmartSCM
-    url: https://scm-demo.vercel.app
+    url: $HIDDEN_SITE_14
   - name: SpacePro PMS
-    url: https://vantage-automation.com/demo-pms
+    url: $HIDDEN_SITE_15
   - name: AI 報價單
-    url: https://vantage-demo-swart.vercel.app/quote-demo.html
+    url: $HIDDEN_SITE_16
   - name: StyleShowcase
-    url: https://style-showcase-demo.vercel.app
+    url: $HIDDEN_SITE_17
   - name: SmartVisual
-    url: https://vantage-automation.com/demo-smartvisual
+    url: $HIDDEN_SITE_18
   - name: FinSight
-    url: https://vantage-automation.com/demo-finsight
+    url: $HIDDEN_SITE_19
   - name: StockSight
-    url: https://vantage-automation.com/demo-stocksight
+    url: $HIDDEN_SITE_20
   - name: UGC Video Tool
-    url: https://vantage-automation.com/demo-ugc
+    url: $HIDDEN_SITE_21
   - name: 律師記帳士
-    url: https://lawcpa-demo.vercel.app
+    url: $HIDDEN_SITE_22
   - name: 房仲 CRM
-    url: https://real-estate-crm-swart-psi.vercel.app
+    url: $HIDDEN_SITE_23
   - name: 健身教練管理
-    url: https://gym-demo-gamma-ivory.vercel.app
+    url: $HIDDEN_SITE_24
 
 status-website:
   baseUrl: /upptime
@@ -66,5 +65,3 @@ status-website:
   navbar:
     - title: 狀態
       href: /
-    - title: 主站
-      href: https://vantage-automation.com
