@@ -1,5 +1,14 @@
 # [?? Live Status](https://Rf144.github.io/upptime): <!--live status--> **🟧 Partial outage**
 
+## 📖 10 秒讀懂這頁
+
+- 這是 **Vantage Automation 的服務監控儀**：機器人每 5 分鐘從外部巡邏一次所有服務，全自動記錄。
+- 判讀：🟩 **Up＝正常**；🟥 **Down＝該次巡邏連不上**（若可用時間 % 仍高＝多為瞬斷或報表殘影，幾輪內自動校正；持續紅＋有 open issue 才是真故障）。
+- 👉 **好讀版狀態頁：[rf144.github.io/upptime](https://rf144.github.io/upptime/)**（同一份資料的漂亮介面）
+- 非公開系統以**代號**顯示（客戶系統 A、基礎設施 G…），屬刻意設計；出狀況時系統會自動開 Issue 並寄信通知維運者，平常**不需要人工看這頁**。
+
+---
+
 This repository contains the open-source uptime monitor and status page for [Rf144](https://Rf144.github.io/upptime), powered by [Upptime](https://github.com/upptime/upptime).
 
 [![Uptime CI](https://github.com/Rf144/upptime/workflows/Uptime%20CI/badge.svg)](https://github.com/Rf144/upptime/actions/workflows/uptime.yml)
